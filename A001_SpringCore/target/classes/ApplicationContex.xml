@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="std" class="com.Student" autowire="byType">
+	<property name="id" value="10"></property>
+	<property name="name" value="laxman"></property>
+	<property name="dept" value="java"></property>
+	<property name="sub">
+	<list>
+	<value>java</value>
+	<value>php</value>
+	<value>android</value>
+	</list>
+	</property>
+	<property name="lang">
+	<list>
+	<value>English</value>
+	<value>Hindi</value>
+	<value>Marathi</value>
+	</list>
+	</property>
+	<!-- <property name="str" ref="str"></property> -->
+	</bean>
+	
+	<bean id="adr1" class="com.Address">
+	<property name="city" value="surat"></property>
+	<property name="state" value="gujarat"></property>
+	<property name="country" value="India"></property>
+	</bean>
+	<bean id="adr2" class="com.Address">
+	<property name="city" value="baroda"></property>
+	<property name="state" value="gujarat"></property>
+	<property name="country" value="India"></property>
+	</bean>
+	<bean id="str" class="com.Stream">
+	<property name="code" value="001"></property>
+	<property name="name" value="science"></property>
+	</bean>
+</beans>

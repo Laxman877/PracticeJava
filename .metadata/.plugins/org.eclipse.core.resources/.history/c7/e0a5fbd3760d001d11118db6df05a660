@@ -1,0 +1,54 @@
+package controller;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import dao.UserDao;
+import model.User;
+
+@WebServlet("/reg")
+public class RegistrationController extends HttpServlet{
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		int uid=0;
+		String id=req.getParameter("id");
+		String fname=req.getParameter("fname");
+		String lname=req.getParameter("lname");
+		String email=req.getParameter("email");
+		String mobile=req.getParameter("mobile");
+		String pass=req.getParameter("pass");
+		String gender=req.getParameter("gender");
+		if(!id.equals("")) {
+			uid=Integer.parseInt(id);
+		}
+		User u=new User();
+		u.setId(uid);
+		u.setFname(fname);
+		u.setLname(lname);
+		u.setEmail(email);
+		u.setMobile(mobile);
+		u.setPass(pass);
+		u.setGender(gender);
+		
+		UserDao dao=new UserDao();
+		User email1=dao.isEmailExist(u);
+		if(id.equals("")) {
+			if(email1!=null) {
+				req.setAttribute("warn", "Email is Already Exist!!");
+				req.getRequestDispatcher("index.jsp").forward(req, resp);
+			}else {
+				dao.regUser(u);
+				req.setAttribute("msg", "Registration Successfull!!");
+				req.getRequestDispatcher("index.jsp").forward(req, resp);
+			}
+		}else {
+			dao.regUser(u);
+			req.getRequestDispatcher("display").forward(req, resp);
+		}
+	}
+}

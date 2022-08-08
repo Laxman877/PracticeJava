@@ -1,0 +1,42 @@
+package dao;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import model.Student;
+
+public class StudentDao {
+	SessionFactory sf;
+	public StudentDao() {
+		sf=new Configuration()
+				.configure("resources/hibernate.cfg.xml")
+				.addAnnotatedClass(Student.class)
+				.buildSessionFactory();
+	}
+	public void regStudent(Student std) {
+		Session s=sf.openSession();
+		Transaction tx=s.beginTransaction();
+		s.saveOrUpdate(std);
+		tx.commit();
+		s.close();
+	}
+	public boolean loginCheck(Student st) {
+		boolean b=false;
+		Session s=sf.openSession();
+		Transaction tx=s.beginTransaction();
+		String qry="from Student s where s.email='"+st.getEmail()+"' and s.pass='"+st.getPass()+"'";
+		Student std=(Student) s.createQuery(qry).uniqueResult();
+		if(std!=null) {
+			b=true;
+		}
+		return b;
+	}
+	/*
+	 * public Student isEmailExist(Student st) { Session s=sf.openSession();
+	 * Transaction tx=s.beginTransaction(); String
+	 * qry="from Student s where s.email='"+st.getEmail()+"'"; Student std=(Student)
+	 * s.createQuery(qry).uniqueResult(); return std; }
+	 */
+}

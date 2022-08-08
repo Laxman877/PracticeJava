@@ -1,0 +1,15 @@
+package model;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "student")
+public class User {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id")
+	int id;
+	@Column(name = "fname")
+	String fname;
+	
+}

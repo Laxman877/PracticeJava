@@ -1,0 +1,15 @@
+package string;
+
+public class Practice09 {
+	public void splitString(String str, int n) {
+		int str_size=str.length();
+		int part_size;
+		if(str_size  % n!=0) {
+			System.out.println("The size of the gievn String is: "+n);
+			return;
+		}
+	}
+	public static void main(String[] args) {
+		String str="abcdefghijklmnopqrstuvwx";
+	}
+}

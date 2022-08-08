@@ -1,0 +1,23 @@
+package model;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "student")
+public class Student {
+	
+	int stid;
+	String std_name;
+	public int getId() {
+		return stid;
+	}
+	public void setId(int id) {
+		this.stid = id;
+	}
+	public String getStd_name() {
+		return std_name;
+	}
+	public void setStd_name(String std_name) {
+		this.std_name = std_name;
+	}
+}

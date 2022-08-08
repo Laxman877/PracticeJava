@@ -1,0 +1,40 @@
+package thread;
+class FirstThread extends Thread{
+	public void display(String msg) {
+		// TODO Auto-generated method stub
+		System.out.print("["+msg);
+		try {
+			Thread.sleep(1000);
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		System.out.print("]");
+	}
+}
+class SecondThread extends Thread {
+	String msg;
+	FirstThread fobj;
+	public SecondThread(String msg, FirstThread fnew) {
+		this.msg = msg;
+		this.fobj = fnew;
+	}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		synchronized (fobj) {
+			fobj.display(msg);
+		}
+	}
+}
+public class ThreadSync {
+	public static void main(String[] args) {
+		FirstThread fnew=new FirstThread();
+		SecondThread s1=new SecondThread("Welcome", fnew);
+		SecondThread s2=new SecondThread("new", fnew);
+		SecondThread s3=new SecondThread("programmer", fnew);
+		s1.start();
+		s2.start();
+		s3.start();
+	}
+}

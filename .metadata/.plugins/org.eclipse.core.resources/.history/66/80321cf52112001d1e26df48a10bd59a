@@ -1,0 +1,13 @@
+package thread;
+class ThreadTwice1 extends Thread{
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+public class ThreadTwice {
+	public static void main(String[] args) {
+		
+	}
+}

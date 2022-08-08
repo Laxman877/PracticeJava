@@ -1,0 +1,20 @@
+package model;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "user")
+public class User {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id")
+	int id;
+	@Column(name = "fname")
+	String fname;
+	String lname;
+	String email;
+	String mobile;
+	String password;
+	String gender;
+	
+}

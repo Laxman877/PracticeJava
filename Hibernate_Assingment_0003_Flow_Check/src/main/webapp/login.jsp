@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page isELIgnored="false"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login here</title>
+</head>
+<body>
+	<h1>Login here</h1>
+	<form action="login">
+		<span>${err}</span> <input type="text" name="email"
+			placeholder="Enter Email"> <input type="text" name="pass"
+			placeholder="Enter Password"> <input type="submit">
+	</form>
+	<a href="index.jsp">Register</a>
+</body>
+</html>

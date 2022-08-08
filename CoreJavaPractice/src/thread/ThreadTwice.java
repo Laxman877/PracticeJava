@@ -1,0 +1,15 @@
+package thread;
+class ThreadTwice1 extends Thread{
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println("Running Thread Twice");
+	}
+}
+public class ThreadTwice {
+	public static void main(String[] args) {
+		ThreadTwice1 t1=new ThreadTwice1();
+		t1.start();
+		t1.start();
+	}
+}

@@ -1,0 +1,18 @@
+package thread;
+class Th1 extends Thread{
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+class Th2 extends Thread{
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+public class SleepThread {
+
+}

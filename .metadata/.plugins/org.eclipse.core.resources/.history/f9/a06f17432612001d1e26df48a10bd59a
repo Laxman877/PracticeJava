@@ -1,0 +1,19 @@
+package thread;
+class TestDaemonThread extends Thread{
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println("Name of thread: "+Thread.currentThread().getName());
+		System.out.println("Daemon: "+Thread.currentThread().isDaemon());
+	}
+}
+public class DaemonThread {
+	public static void main(String[] args) {
+		TestDaemonThread t1=new TestDaemonThread();
+		TestDaemonThread t2=new TestDaemonThread();
+//		t1.start();
+//		t1.setDaemon(true);
+		t2.start();
+		t1.start();
+	}
+}

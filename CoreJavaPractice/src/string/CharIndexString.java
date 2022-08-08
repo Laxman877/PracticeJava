@@ -1,0 +1,14 @@
+package string;
+
+public class CharIndexString {
+	public static void main(String[] args) {
+		String str="java excercise!";
+		System.out.println("Original String : "+str);
+		//get  the char at position 0 and 10
+		int ind1=str.charAt(0);
+		int ind2=str.charAt(10);
+		
+		System.out.println("char at position 0: "+(char)ind1);
+		System.out.println("char at position 10: "+(char)ind2);
+	}
+}

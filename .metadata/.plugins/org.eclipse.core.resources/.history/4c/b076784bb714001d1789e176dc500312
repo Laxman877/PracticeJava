@@ -1,0 +1,23 @@
+package askininterview;
+
+public class SwappingNumber {
+	public static void main(String[] args) {
+		int a=10, b=20;
+		System.out.println("Before swapping values: "+a+" "+b);
+		//logic 1- Third variable
+		/*
+		 * int t=a; a=b; b=t;
+		 */
+		//logic 2-use + & - operator without using third variable
+		/*
+		 * a=a+b; b=a-b; a=a-b;
+		 */
+		//logic 3-use * & / opeartor without using third variable
+		//here a & b value should not be zero
+		a=a*b;
+		b=a/b;
+		a=a/b;
+		
+		System.out.println("After Swapping Values: "+a+" "+b);
+	}
+}

@@ -1,0 +1,56 @@
+
+May 17, 2022 17:31:19.419 NEW SESSION
+May 17, 2022 17:31:19.419 [11892:4840:0517/173119.281:ERROR:device_event_log_impl.cc(214)] [17:31:19.282] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 17, 2022 17:31:19.420 [11892:4840:0517/173119.282:ERROR:device_event_log_impl.cc(214)] [17:31:19.282] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 17, 2022 17:32:13.982 [11892:13816:0517/173213.981:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 17, 2022 17:32:40.460 [11892:10476:0517/173240.439:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+May 17, 2022 17:32:41.897 [11892:13816:0517/173241.896:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 17, 2022 17:33:38.876 [11892:13816:0517/173338.875:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 17, 2022 17:35:35.862 [11892:13816:0517/173535.861:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 17, 2022 17:39:28.436 [11892:13816:0517/173928.436:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 17, 2022 17:46:17.977 [11892:13816:0517/174617.976:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+
+May 19, 2022 10:42:55.317 NEW SESSION
+May 19, 2022 10:42:55.318 [9024:11596:0519/104255.236:ERROR:device_event_log_impl.cc(214)] [10:42:55.236] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 19, 2022 10:42:55.896 [9024:11596:0519/104255.236:ERROR:device_event_log_impl.cc(214)] [10:42:55.236] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 19, 2022 10:43:08.108 [9024:540:0519/104308.108:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 19, 2022 10:44:15.537 [13040:12912:0519/104415.536:ERROR:device_event_log_impl.cc(214)] [10:44:15.536] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 19, 2022 10:44:15.578 [13040:12912:0519/104415.537:ERROR:device_event_log_impl.cc(214)] [10:44:15.537] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 19, 2022 10:44:19.433 [13040:12636:0519/104419.432:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 19, 2022 10:44:42.559 [13040:12636:0519/104442.557:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 19, 2022 10:45:10.594 [13040:12620:0519/104510.593:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+May 19, 2022 10:45:36.649 [13040:12636:0519/104536.649:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 19, 2022 10:47:04.686 [13040:12636:0519/104704.685:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 19, 2022 10:50:26.826 [13040:12636:0519/105026.825:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 19, 2022 10:57:55.785 [13040:12636:0519/105755.784:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 19, 2022 11:07:55.788 [13040:12636:0519/110755.787:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 19, 2022 13:06:49.839 [13040:12912:0519/130649.838:ERROR:device_event_log_impl.cc(214)] [13:06:49.837] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+May 19, 2022 13:06:56.469 [13040:12636:0519/130656.468:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 19, 2022 16:24:16.926 [13040:12912:0519/162416.917:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Invalid credentials (credentials rejected by client).
+May 19, 2022 16:24:18.363 [13040:12636:0519/162418.362:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 19, 2022 16:24:32.53 [13040:9148:0519/162432.052:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+May 19, 2022 16:24:54.410 [13040:12912:0519/162454.410:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+May 19, 2022 16:34:18.365 [13040:12636:0519/163418.365:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 19, 2022 16:44:18.367 [13040:12636:0519/164418.366:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 19, 2022 16:54:18.369 [13040:12636:0519/165418.369:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 19, 2022 17:04:18.371 [13040:12636:0519/170418.370:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 19, 2022 17:14:19.26 [13040:12636:0519/171419.025:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 19, 2022 17:24:19.29 [13040:12636:0519/172419.028:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 19, 2022 17:34:19.31 [13040:12636:0519/173419.030:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 19, 2022 17:44:19.34 [13040:12636:0519/174419.033:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 19, 2022 17:54:19.36 [13040:12636:0519/175419.035:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+May 19, 2022 18:04:19.39 [13040:12636:0519/180419.038:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+
+May 31, 2022 11:12:21.747 NEW SESSION
+May 31, 2022 11:12:21.747 [2068:11128:0531/111221.515:ERROR:device_event_log_impl.cc(214)] [11:12:21.515] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 31, 2022 11:12:21.921 [2068:11128:0531/111221.651:ERROR:device_event_log_impl.cc(214)] [11:12:21.652] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 31, 2022 11:12:39.387 Opening in existing browser session.
+May 31, 2022 11:15:46.749 [2068:11128:0531/111546.748:ERROR:command_buffer_proxy_impl.cc(328)] GPU state invalid after WaitForGetOffsetInRange.
+May 31, 2022 11:15:47.352 [2068:11128:0531/111547.351:ERROR:gpu_process_host.cc(974)] GPU process exited unexpectedly: exit_code=2
+
+Jun 18, 2022 09:51:35.67 NEW SESSION
+Jun 18, 2022 09:51:35.68 [4664:6264:0618/095135.060:ERROR:assistance_home_client.cc(23)] File path C:\Users\admin\AppData\Local\Microsoft\Edge\User Data\Default
+Jun 18, 2022 09:57:12.837 [5692:8424:0618/095712.829:ERROR:assistance_home_client.cc(23)] File path C:\Users\admin\AppData\Local\Microsoft\Edge\User Data\Default
+Jun 18, 2022 09:57:14.73 [5692:8424:0618/095714.071:ERROR:fallback_task_provider.cc(124)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Jun 18, 2022 09:57:22.735 [5692:8424:0618/095722.725:ERROR:device_event_log_impl.cc(214)] [09:57:22.725] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jun 18, 2022 09:57:22.743 [5692:8424:0618/095722.726:ERROR:device_event_log_impl.cc(214)] [09:57:22.726] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)

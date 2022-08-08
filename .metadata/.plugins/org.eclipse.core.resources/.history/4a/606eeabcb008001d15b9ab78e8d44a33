@@ -1,0 +1,22 @@
+package model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "studenttable")
+public class Student {
+	@GeneratedValue
+	@Id
+	@Column(name = "id")
+	int id;
+	String fname;
+	String lname;
+	String email;
+	String mobile;
+	String pass;
+	String gender;
+}

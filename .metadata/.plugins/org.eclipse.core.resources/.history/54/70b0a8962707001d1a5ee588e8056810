@@ -1,0 +1,11 @@
+package basic;
+
+public class Practice02 {
+	public static void main(String[] args) {
+		int i='A';
+		System.out.println(i);
+		
+		char c =70;
+		System.out.println(c);
+	}
+}

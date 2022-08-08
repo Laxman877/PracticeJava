@@ -1,0 +1,9 @@
+package arrays;
+
+public class ReverseOfArray {
+	public static void main(String[] args) {
+		int[] arr= {1485, 3456, 9654, 3214, 5478,
+				    1245, 3452, 6584, 6241, 3145,
+				    1456, 2165, 1457, 2546};
+	}
+}

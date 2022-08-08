@@ -1,0 +1,31 @@
+package dao;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import model.User;
+
+public class UserDao {
+	SessionFactory sf;
+	public UserDao() {
+		sf=new Configuration()
+				.configure("resources/hibernate.cfg.xml")
+				.addAnnotatedClass(User.class)
+				.buildSessionFactory();
+	}
+	public void regUser(User u) {
+		Session s=sf.openSession();
+		Transaction tx=s.beginTransaction();
+		s.saveOrUpdate(u);
+		tx.commit();
+		s.close();
+	}
+	public User isEmailExist(User u) {
+		Session s=sf.openSession();
+		Transaction tx=s.beginTransaction();
+		String qry="from User u where u.email='"+u.getEmail()+"'";
+		return null;
+	}
+}

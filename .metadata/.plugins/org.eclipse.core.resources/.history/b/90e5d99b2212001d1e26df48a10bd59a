@@ -1,0 +1,16 @@
+package thread;
+class TestCallRun2 extends Thread{
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println("Without calling start method");
+	}
+}
+public class RunMethod {
+	public static void main(String[] args) {
+		TestCallRun2 t1=new TestCallRun2();
+		TestCallRun2 t2=new TestCallRun2();
+		t1.run();
+		t2.run();
+	}
+}

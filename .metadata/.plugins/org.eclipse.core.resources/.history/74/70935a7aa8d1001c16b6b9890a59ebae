@@ -1,0 +1,13 @@
+package string;
+
+public class Practice01 {
+	public static void main(String[] args) {
+		String str="Java Excercise";
+		System.out.println("Original String = "+str);
+		int index1 = str.charAt(0);
+		int index2= str.charAt(10);
+		
+		System.out.println("The character at position o is: "+(char)index1);
+		System.out.println("The charcter at positioin 10 is: "+(char)index2);
+	}
+}

@@ -1,0 +1,42 @@
+package model;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "items")
+public class Items {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id")
+	int id;
+	@Column(name = "itemid")
+	String itemid;
+	@Column(name = "itemtotal")
+	double itemtotal;
+	@Column(name = "quantity")
+	int quantity;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getItemid() {
+		return itemid;
+	}
+	public void setItemid(String itemid) {
+		this.itemid = itemid;
+	}
+	public double getItemtotal() {
+		return itemtotal;
+	}
+	public void setItemtotal(double itemtotal) {
+		this.itemtotal = itemtotal;
+	}
+	public int getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+}

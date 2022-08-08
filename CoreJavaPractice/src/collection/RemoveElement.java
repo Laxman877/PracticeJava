@@ -1,0 +1,24 @@
+package collection;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class RemoveElement {
+	public static void main(String[] args) {
+		ArrayList<String> string=new ArrayList<String>();
+		string.add("red");
+		string.add("blue");
+		string.add("orange");
+		string.add("green");
+		string.add("white");
+		
+		System.out.println(string);
+		
+		string.remove(2);
+//		Iterator itr=string.iterator();
+//		while(itr.hasNext()) {
+//			System.out.println(itr.next());
+//		}
+		System.out.println("After Removing element from String :\n"+string);
+	}
+}

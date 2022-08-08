@@ -1,0 +1,36 @@
+package hacker;
+
+import java.util.LinkedList;
+import java.util.Scanner;
+
+public class Solution36 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter");
+		int n=sc.nextInt();
+		LinkedList<Integer> list=new LinkedList<>();
+		for(int i=0;i<n;i++) {
+			int value=sc.nextInt();
+			list.add(value);
+		}
+		System.out.println("enter");
+		int q=sc.nextInt();
+		for(int i=0;i<q;i++) {
+			System.out.println("String");
+			String action=sc.next();
+			if(action.equals("Insert")) {
+				int index=sc.nextInt();
+				int value=sc.nextInt();
+				list.add(index,value);
+			}else {
+				int index=sc.nextInt();
+				list.remove(index);
+			}
+		}
+		sc.close();
+		
+		for(Integer num:list) {
+			System.out.print(num+" ");
+		}
+	}
+}

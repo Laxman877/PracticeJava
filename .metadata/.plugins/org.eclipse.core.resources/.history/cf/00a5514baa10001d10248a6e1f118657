@@ -1,0 +1,20 @@
+package arrays;
+
+public class IndexOfArrayElement {
+	public static int findIndex(int arr[],int t) {
+		if(arr==null) return -1;
+		int len=arr.length;
+		int i=0;
+		while(i<len) {
+			if(arr[i]==t) return i;
+			else i=i+1;
+		}
+		return -1;
+	}
+	public static void main(String[] args) {
+		int arr[]= {};
+		System.out.println("index position of 75: "+findIndex(arr, 75));
+		System.out.println("index position of 74: "+findIndex(arr, 74));
+
+	}
+}

@@ -1,0 +1,12 @@
+package string;
+class Main{
+	public String wordReplacedBy(String stng) {
+		String newstring="";
+		
+	}
+}
+public class WordReplaceString {
+	public static void main(String[] args) {
+		
+	}
+}

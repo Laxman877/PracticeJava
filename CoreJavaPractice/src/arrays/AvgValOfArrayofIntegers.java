@@ -1,0 +1,23 @@
+package arrays;
+
+import java.util.Arrays;
+
+public class AvgValOfArrayofIntegers {
+	public static void main(String[] args) {
+		int []arr_num= {5,7,6,4,8,9,3};
+		System.out.println("original arrays is: "+Arrays.toString(arr_num));
+		int max=arr_num[0];
+		int min=arr_num[0];
+		float sum=arr_num[0];
+		for(int i=0;i<arr_num.length;i++) {
+			sum+=arr_num[i];
+			if(arr_num[i]>max)
+				max=arr_num[i];
+			else if(arr_num[i]<min)
+					min=arr_num[i];
+		}
+		float x=((sum-max-min)/(arr_num.length-2));
+		System.out.printf("compute the avg val of an array of integers except the smallest and largest values: %.2f",x);
+		System.out.print("\n");
+	}
+}

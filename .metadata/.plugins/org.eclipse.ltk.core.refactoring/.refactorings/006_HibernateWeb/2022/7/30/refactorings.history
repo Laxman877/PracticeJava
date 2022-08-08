@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;resources&apos; to &apos;HibernateAssingment_001/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;006_HibernateWeb&apos;&#x0D;&#x0A;- Destination element: &apos;HibernateAssingment_001/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;006_HibernateWeb/src/main/java/resources&apos;" description="Copy package" destination="=HibernateAssingment_001/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;resources" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1658375668540" version="1.0"/>
+</session>

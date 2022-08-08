@@ -1,0 +1,16 @@
+package dao;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import model.User;
+
+public class UserDao {
+	SessionFactory sf;
+	public UserDao() {
+		sf=new Configuration()
+				.configure("resources/hibernate.cfg.xml")
+				.addAnnotatedClass(User.class)
+				.buildSessionFactory();
+	}
+}
