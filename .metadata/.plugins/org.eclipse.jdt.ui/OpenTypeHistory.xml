@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-    <typeInfo handle="=A002_SpringCore_Annotation11/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com{CustomerDeatils.java[CustomerDeatils" modifiers="513" timestamp="1657608025969"/>
-    <typeInfo handle="=CoreJavaPractice/C:\/Program Files\/Java\/jdk-18.0.1.1\/lib\/jrt-fs.jar`java.base=/module=/true=/&lt;java.lang(Runnable.class[Runnable" modifiers="1537" timestamp="1655482705961"/>
+    <typeInfo handle="=A004_Spring-ORM/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.service{UserService.java[UserService" modifiers="513" timestamp="1661840065972"/>
+    <typeInfo handle="=A004_Spring-ORM/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.dao{UserDao.java[UserDao" modifiers="513" timestamp="1661840061496"/>
+    <typeInfo handle="=A004_Spring-ORM/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.dao{AdminDao.java[AdminDao" modifiers="513" timestamp="1661863193723"/>
+    <typeInfo handle="=A004_Spring-ORM/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.service{AdminService.java[AdminService" modifiers="513" timestamp="1661863178904"/>
+    <typeInfo handle="=A006_SpringMVC_ORM/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.service{UserService.java[UserService" modifiers="513" timestamp="1662567827231"/>
+    <typeInfo handle="=A006_SpringMVC_ORM/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.dao{UserDao.java[UserDao" modifiers="513" timestamp="1662567862771"/>
 </typeInfoHistroy>

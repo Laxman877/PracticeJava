@@ -16,8 +16,8 @@ import model.Student;
 @WebServlet("/display")
 public class Display extends HttpServlet{
 	@Override
-	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		StudentDao dao=new StudentDao();
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+StudentDao dao=new StudentDao();
 		
 		HttpSession session = req.getSession(false);
 		String user = (String) session.getAttribute("user_email");

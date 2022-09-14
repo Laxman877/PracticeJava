@@ -10,4 +10,4 @@ public class CountNumberOfDigits {
 		}
 		System.out.println("Number of digits: "+count);
 	}
-}
+}	

@@ -24,11 +24,17 @@ public class Items {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getItemid() {
-		return itemid;
+	public String getItemname() {
+		return itemname;
 	}
-	public void setItemid(String itemid) {
-		this.itemid = itemid;
+	public void setItemname(String itemname) {
+		this.itemname = itemname;
+	}
+	public Cart getCart() {
+		return cart;
+	}
+	public void setCart(Cart cart) {
+		this.cart = cart;
 	}
 	public double getItemtotal() {
 		return itemtotal;

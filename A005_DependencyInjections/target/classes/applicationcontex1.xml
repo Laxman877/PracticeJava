@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="adr" class="org.Address">
+	<property name="aid" value="10"></property>
+	<property name="city" value="Surat"></property>
+	<property name="state" value="Gujarat"></property>
+	<property name="country" value="India"></property>
+	</bean>
+
+</beans>

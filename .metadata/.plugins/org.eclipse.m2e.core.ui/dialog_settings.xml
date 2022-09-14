@@ -2,6 +2,12 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Laxman_DoNot_Delete\jdk\Payment_Demo\src\main\webapp\index.jsp"/>
+			<item value="D:\Laxman_DoNot_Delete\jdk\SpringBoot_API_Learning"/>
+			<item value="D:\Laxman_DoNot_Delete\jdk\A003_SpringBeanConfig"/>
+			<item value="D:\Laxman_DoNot_Delete\jdk\A003_SpringBeanConfig\src\main\java\main\MainClass.java"/>
+			<item value="D:\Laxman_DoNot_Delete\jdk\A002_SpringCore_Annotation11"/>
+			<item value="D:\Laxman_DoNot_Delete\jdk\HibernateAssingment_006\src\main\java\dao\ReaderDao.java"/>
 			<item value="D:\Laxman_DoNot_Delete\jdk\HibernateAssingment_004"/>
 			<item value="D:\Laxman_DoNot_Delete\jdk\HibernateAssingment_003"/>
 			<item value="D:\Laxman_DoNot_Delete\jdk\HibernateAssingment_001\src\main\java\model\Student.java"/>
@@ -29,19 +35,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.lax.HibrernateAssingment_005"/>
-			<item value="com.lax.HibernateAssingment_004"/>
-			<item value="com.lax.HibernateAssingment_003"/>
-			<item value="com.lax.HibernateAssingment_001"/>
+			<item value="com.assingment.Assingment_SeverStarter"/>
+			<item value="com.assingment.Payment_Demo"/>
+			<item value="com.assingment.A006_SpringMVC_ORM"/>
 		</list>
 		<list key="groupId">
-			<item value="com.lax"/>
+			<item value="com.assingment"/>
 		</list>
 		<list key="artifactId">
-			<item value="HibrernateAssingment_005"/>
-			<item value="HibernateAssingment_004"/>
-			<item value="HibernateAssingment_003"/>
-			<item value="HibernateAssingment_001"/>
+			<item value="Assingment_SeverStarter"/>
+			<item value="Payment_Demo"/>
+			<item value="A006_SpringMVC_ORM"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

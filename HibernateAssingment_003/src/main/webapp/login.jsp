@@ -12,7 +12,7 @@
 <h1>Login Here</h1>
 <span>${err}</span>
 <span>${msg}</span>
-<form action="login">
+<form action="login" method="post">
 <input type="text" name="email" placeholder="Username">
 <input type="text" name="pass" placeholder="Password">
 <input type="submit">

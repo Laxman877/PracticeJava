@@ -26,6 +26,15 @@ public class Student {
 	String pass;
 	@Column(name = "gender")
 	String gender;
+	@Column(name = "img")
+	String img;
+	
+	public String getImg() {
+		return img;
+	}
+	public void setImg(String img) {
+		this.img = img;
+	}
 	public int getId() {
 		return id;
 	}

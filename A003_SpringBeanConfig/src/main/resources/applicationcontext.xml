@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="std" class="com.CollectionList">
+	<property name="list">
+	<list>
+	<value>1</value>
+	<ref bean="studentBean"/>
+	<value>2</value>
+	<ref bean="studentBean1"/>
+	<value>3</value>
+	<ref bean="studentBean2"/>
+	<value>4</value>
+	<ref bean="studentBean3"/>
+	<value>5</value>
+	<ref bean="studentBean4"/>
+	</list>
+	</property>
+	</bean>	
+	<bean id="studentBean" class="com.Student">
+	<property name="id" value="1"></property>
+	<property name="fname" value="laxman"></property>
+	<property name="lname" value="patil"></property>
+	<property name="email" value="plaxman@gmail.com"></property>
+	<property name="mobile" value="8574698574"></property>
+	</bean>
+	<bean id="studentBean1" class="com.Student">
+	<property name="id" value="2"></property>
+	<property name="fname" value="kunal"></property>
+	<property name="lname" value="pendharkar"></property>
+	<property name="email" value="kunal@gmail.com"></property>
+	<property name="mobile" value="8574365847"></property>
+	</bean>
+	<bean id="studentBean2" class="com.Student">
+	<property name="id" value="3"></property>
+	<property name="fname" value="amit"></property>
+	<property name="lname" value="prajapti"></property>
+	<property name="email" value="amit@gmail.com"></property>
+	<property name="mobile" value="745138574"></property>
+	</bean>
+	<bean id="studentBean3" class="com.Student">
+	<property name="id" value="4"></property>
+	<property name="fname" value="atit"></property>
+	<property name="lname" value="suthar"></property>
+	<property name="email" value="atit@gmail.com"></property>
+	<property name="mobile" value="9658471224"></property>
+	</bean>
+	<bean id="studentBean4" class="com.Student">
+	<property name="id" value="5"></property>
+	<property name="fname" value="dhiraj"></property>
+	<property name="lname" value="dubey"></property>
+	<property name="email" value="dhiraj@gmail.com"></property>
+	<property name="mobile" value="8574698564"></property>
+	</bean>
+</beans>

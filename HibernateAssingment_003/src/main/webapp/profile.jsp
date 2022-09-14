@@ -11,7 +11,7 @@
 </head>
 <body>
 	<h1>Welcome</h1>
-	<form action="display">
+	<form action="display" method="post">
 		<table class="table" border="1">
 			<tr>
 				<th>Student Id</th>
@@ -21,6 +21,7 @@
 				<th>Mobile</th>
 				<th>Password</th>
 				<th>Gender</th>
+				<th>Image</th>
 				<th colspan="2">Action</th>
 			</tr>
 			
@@ -32,12 +33,14 @@
 				<td>${dt.getMobile()}</td>
 				<td>${dt.getPass()}</td>
 				<td>${dt.getGender()}</td>
+				<td><img alt="" src="img/${dt.getImg()}"></td>
 				<td><a href="update?action=update&&uid=${dt.getId()}">Edit</a></td>
 				<td><a href="update?action=delete&&uid=${dt.getId()}">Delete</a></td>
 			</tr>
 			
 		</table>
-	</form>
+	</form><br>
+	
 	<a href="logout">Logout</a>
 </body>
 </html>
